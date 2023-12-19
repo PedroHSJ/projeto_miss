@@ -1,9 +1,9 @@
-import { Typography } from "@material-tailwind/react";
+import { NavBar } from "../../components/header";
 
 export const About = () => {
   return (
     <div>
-      <Typography variant="h1">About</Typography>
+      <NavBar defaultSelectedKey="2" />
     </div>
   );
 };

@@ -8,7 +8,7 @@ export const CardGrid = ({ children }: CardProps) => {
   return (
     <div
       className={`
-      hover:cursor-pointer hover:bg-gray-400/50 transition
+      hover:cursor-pointer hover:bg-white/50 transition
       text-white
       w-[200px]
       h-[200px]
