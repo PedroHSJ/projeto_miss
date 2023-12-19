@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        home: "url('./src/images/amazonia.jpg')",
+        home: "url('./public/static/amazonia.jpg')",
       },
     },
   },
