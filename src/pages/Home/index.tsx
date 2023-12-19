@@ -6,13 +6,14 @@ import { CardGrid } from "../../components/card-grid";
 import { Layout, Typography } from "antd";
 import { TextCard } from "../../components/TextCard";
 import { Content, Footer } from "antd/es/layout/layout";
+import { BackgroundImage } from "../../components/background";
 
 export const Home = () => {
   const { Title, Text } = Typography;
   return (
     <Layout>
       <NavBar defaultSelectedKey="1" />
-      <div className="min-h-screen bg-home bg-no-repeat bg-cover bg-center bg-fixed py-24 px-10 flex flex-col justify-center">
+      <BackgroundImage>
         <Content>
           <div className="flex flex-row justify-center">
             <div className="flex flex-col">
@@ -72,7 +73,7 @@ export const Home = () => {
             </div>
           </div>
         </Content>
-      </div>
+      </BackgroundImage>
       <Footer style={{ textAlign: "center" }}>PHSJ Design ©2023</Footer>
     </Layout>
   );
